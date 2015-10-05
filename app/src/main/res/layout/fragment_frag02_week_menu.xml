@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ToggleButton
+        android:id="@+id/day01MondayRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:textSize="12sp" />
+
+    <ToggleButton
+        android:id="@+id/day02TuesdayRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:textSize="12sp" />
+
+    <ToggleButton
+        android:id="@+id/day03WednesdayRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <ToggleButton
+        android:id="@+id/day04ThursdayRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" />
+
+    <ToggleButton
+        android:id="@+id/day05FridayRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" />
+
+    <ToggleButton
+        android:id="@+id/day06SaturdayRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" />
+
+    <ToggleButton
+        android:id="@+id/day07SundayRadio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" />
+    </LinearLayout>
+    <include layout="@layout/fragment_frag01_today_menu" />
+
+</LinearLayout>

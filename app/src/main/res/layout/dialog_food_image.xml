@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+    >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <jhhy.co.kr.taclunchmenu.HwiSmartImageView
+            android:id="@+id/imgViewForFood01"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+
+        <jhhy.co.kr.taclunchmenu.HwiSmartImageView
+            android:id="@+id/imgViewForFood02"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <jhhy.co.kr.taclunchmenu.HwiSmartImageView
+            android:id="@+id/imgViewForFood03"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+
+        <jhhy.co.kr.taclunchmenu.HwiSmartImageView
+            android:id="@+id/imgViewForFood04"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/progressViewForFood01"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:padding="40dp"
+                />
+
+            <ProgressBar
+                android:id="@+id/progressViewForFood02"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:padding="40dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/progressViewForFood03"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:padding="40dp"
+                />
+
+            <ProgressBar
+                android:id="@+id/progressViewForFood04"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:padding="40dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="jhhy.co.kr.taclunchmenu.MenuListFragment"
+    >
+
+    <ExpandableListView
+        android:id="@+id/expandableListView01"
+        android:descendantFocusability="blocksDescendants"
+        android:groupIndicator="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</FrameLayout>

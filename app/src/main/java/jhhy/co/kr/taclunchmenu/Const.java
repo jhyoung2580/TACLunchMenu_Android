@@ -5,7 +5,7 @@ package jhhy.co.kr.taclunchmenu;
  */
 public class Const
 {
-    private static String hostDomain = "devnews.co.kr";
+    private static String hostDomain = "aila.elimsoft.co.kr";
 
     public static final String URL_SET_GCM_REG_ID = "http://" + hostDomain + "/getMenu/GCM/setRegId.php";
     public static final String URL_GOOGLE_IMAGES_SEARCH = "http://ajax.googleapis.com/ajax/services/search/images?v=1.0&q=";

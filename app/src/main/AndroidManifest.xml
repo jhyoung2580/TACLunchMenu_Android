@@ -25,11 +25,7 @@
             android:label="@string/app_name"
             android:launchMode="singleTop"
             android:theme="@style/StyledIndicators" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
         <receiver
@@ -48,6 +44,17 @@
             android:theme="@android:style/Theme.Dialog"
             >
         </activity>
+        <activity
+            android:name=".SplashActivity"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
 
         <!--Include the AdActivity configChanges and theme. -->
         <activity android:name="com.google.android.gms.ads.AdActivity"

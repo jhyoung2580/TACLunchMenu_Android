@@ -19,7 +19,7 @@
         >
         <TextView
             android:layout_weight="80"
-            android:text="관리자 푸시알람 받기"
+            android:text="장하영 왕돼지"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <CheckBox
